@@ -1,0 +1,55 @@
+﻿.body-container {
+    margin-top: 60px;
+    padding-bottom:40px;
+}
+
+.welcome-page {
+    li {
+        list-style: none;
+        padding: 4px;
+    }
+}
+
+.logo {
+    img {
+        width:30px;
+    }
+}
+
+.logged-out-page {
+    iframe {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+}
+.bg-header {
+    background-color: #326f35 !important;
+
+    a.navbar-brand, a.nav-link {
+        color: white !important;
+    }
+}
+
+.grants-page {
+    .card {
+        margin-top: 20px;
+        border-bottom: 1px solid lightgray;
+
+        .card-title {
+            img {
+                width: 100px;
+                height: 100px;
+            }
+
+            font-size: 120%;
+            font-weight: bold;
+        }
+
+        label {
+            font-weight: bold;
+        }
+    }
+}
+
+
